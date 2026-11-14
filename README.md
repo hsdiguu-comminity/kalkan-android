@@ -30,7 +30,16 @@ app/src/test/  app/src/androidTest/ JUnit, Compose UI Test
 
 ## Kurulum
 
-Henüz yapılmadı – Gradle dosyaları boştur, ekip tarafından doldurulacak (Gradle wrapper dahil).
+Android Studio (JDK 21+) ile proje klasörünü açın; Gradle eşitlemesi bağımlılıkları indirir.
+Komut satırından:
+
+```bash
+./gradlew assembleDebug        # APK: app/build/outputs/apk/debug/
+./gradlew testDebugUnitTest    # Birim testleri
+```
+
+Yeni bağımlılıklar `gradle/libs.versions.toml` dosyasına eklenir. Uygulama şu an yalnızca
+başlangıç ekranını gösterir; tema, navigasyon ve ekranlar görev dağılımındaki kişilerce eklenecek.
 
 ## Çalışma kuralları
 

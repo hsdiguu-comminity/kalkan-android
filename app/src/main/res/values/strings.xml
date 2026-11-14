@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Kullanıcıya görünen tüm metinler burada tutulur. -->
+<resources>
+    <string name="app_name">Kalkan</string>
+    <string name="tagline">Tıklamadan önce sor.</string>
+</resources>
